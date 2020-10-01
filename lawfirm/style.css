@@ -1,0 +1,133 @@
+/*
+Theme Name: Lawfirm Sample
+Author: The Dev Drawer
+Description: Sample website created for a sample law firm
+Version: 1.0.0
+*/
+body { 
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+    margin-bottom:.5rem;
+}
+
+.img-fluid { max-width:100%; height:auto;}
+.text-center { text-align:center; }
+
+.hero-cta {
+    margin-top:30px;
+}
+
+.hero-cta .elementor-icon-box-wrapper { 
+    position:relative;
+    top:-40px;
+}
+
+.strong-view.wpmtst-modern .wpmtst-testimonial-content:before, .strong-view.wpmtst-modern .wpmtst-testimonial-content:after {
+    background: var( --e-global-color-primary ) !important;
+    color: var( --e-global-color-primary ) !important;
+}
+
+.homepage-services {
+    position:relative;
+    min-height:275px;
+    text-align:center;
+    color:#fff;
+}
+
+.homepage-services .content {
+    position: relative;
+    top:-50px;
+}
+
+.homepage-services .icon {
+    background-color: var( --e-global-color-primary );
+    fill: #fff;
+    color:#fff;
+    font-size:33px;
+    padding: 0.7em;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 91px;
+}
+
+.practice-area-box {
+    background-color: var( --e-global-color-secondary );
+    padding:25px;
+    margin:15px;
+}
+
+.single-practice-areas .content .elementor-column-wrap, .single-team .content .elementor-column-wrap  {
+    padding:10px;
+}
+
+.single-practice-areas .content h1, .single-team .content h1 {
+    color: var( --e-global-color-primary );
+    font-size:2rem;
+}
+
+.single-practice-areas .content h3 {
+    font-size:1.5rem;
+}
+
+.single-practice-areas .content a {
+    text-decoration: none;
+}
+
+.staff .image-wrapper img {
+    width:100%;
+    height:auto;
+    transition: opacity .4s;
+}
+
+.staff .image-wrapper a:hover > img {
+    opacity: .8;
+}
+
+.staff .team-member-info h2 {
+    margin:0;
+    font-size:2rem;
+}
+
+.staff .team-member-info h2 a {
+    color:#333;
+}
+
+.staff .team-member-info h3m , .single-team .content h2 {
+    margin:0;
+    color:rgba(0,0,0,.5);
+    font-family:var( --e-global-typography-text-font-family );
+    font-size:.8rem;
+    text-transform: uppercase;
+    border-bottom:1px solid rgba(0,0,0,.3);
+    margin-bottom:5px;
+}
+
+.staff .elementor-column {
+    margin-bottom:50px;
+}
+
+.team-section {
+    column-count:2;
+}
+
+.single-team .contact-links i {
+    margin: 0 5px;
+}
+
+@media only screen and (max-width:767px) {
+    .team-section {
+        column-count:1;
+    }
+    .subheader {
+        display:none;
+    }
+
+    .elementor-social-icons-wrapper.elementor-grid {
+        margin: 0 auto;
+    }
+}
